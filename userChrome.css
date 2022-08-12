@@ -21,3 +21,36 @@
   display: none !important;
 }
 */
+
+/* Do not display close button in tabs */
+.tab-close-button {
+    display:none !important;
+}
+
+/* Tiny Tabs */
+.tabbrowser-tab {
+    --tab-min-width: 5px !important;
+    overflow: hidden !important;
+}
+
+/* Shrink Grab Point */
+.titlebar-spacer[type="post-tabs"] {
+    width: 10px !important;
+}
+
+.titlebar-buttonbox-container {
+    display: none !important;
+}
+
+/* Hide URL (and extra info) in tabs */
+.places-tooltip-box hbox {
+    display: none !important;
+}
+
+/* Undoo this theme's dimming out of inactive tabs */
+#tabbrowser-tabs .tabbrowser-tab[pending] .tab-content {
+    opacity: 1;
+}
+.tab-icon-image {
+    opacity: 1;
+}
