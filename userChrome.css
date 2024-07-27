@@ -64,3 +64,14 @@
     max-width: none !important;
     min-width: 0px !important;
 }
+
+/* Sidebar Tweaks */
+#sidebar-header {
+    display: none;
+}
+
+#sidebar-splitter {
+    border: none !important;
+    background-color:-moz-dialogtext !important;
+    width: 4px !important;
+}
