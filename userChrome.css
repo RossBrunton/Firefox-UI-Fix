@@ -47,7 +47,7 @@
     display: none !important;
 }
 
-/* Undoo this theme's dimming out of inactive tabs */
+/* Undo this theme's dimming out of inactive tabs */
 #tabbrowser-tabs .tabbrowser-tab[pending] .tab-content {
     opacity: 1;
 }
@@ -57,4 +57,10 @@
 }
 .tab-icon-image {
     opacity: 1;
+}
+
+/* remove maximum/minimum width restriction of sidebar */
+#sidebar-box {
+    max-width: none !important;
+    min-width: 0px !important;
 }
