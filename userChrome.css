@@ -4,29 +4,6 @@
 
 /** Add your custom styles below **********************************************/
 
-/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
-/*
-.editBMPanel_locationRow {
-  display: initial !important;
-}
-*/
-
-/* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
-/*
-#context-sendimage,
-#context-sendvideo,
-#context-sendaudio,
-#context-sep-setbackground,
-#context-setDesktopBackground {
-  display: none !important;
-}
-*/
-
-/* Do not display close button in tabs */
-.tab-close-button {
-    display:none !important;
-}
-
 /* Tiny Tabs */
 .tabbrowser-tab {
     --tab-min-width: 5px !important;
@@ -48,6 +25,7 @@
 }
 
 /* Undo this theme's dimming out of inactive tabs */
+/* Note: Still required for inactive windows */
 #tabbrowser-tabs .tabbrowser-tab[pending] .tab-content {
     opacity: 1;
 }
@@ -63,11 +41,6 @@
 #sidebar-box {
     max-width: none !important;
     min-width: 0px !important;
-}
-
-/* Sidebar Tweaks */
-#sidebar-header {
-    display: none;
 }
 
 #sidebar-splitter {
