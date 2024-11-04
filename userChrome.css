@@ -48,3 +48,8 @@
     background-color:-moz-dialogtext !important;
     width: 4px !important;
 }
+
+/* Make the toolbar a different colour */
+:root {
+    --toolbar-bgcolor: #efefef !important;
+}
